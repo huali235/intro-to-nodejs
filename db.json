@@ -1,0 +1,26 @@
+{
+  "notes": [
+    {
+      "content": "eat food",
+      "tags": [
+        "health"
+      ],
+      "id": 1718918175553
+    },
+    {
+      "content": "coding",
+      "tags": [
+        "work",
+        " serious"
+      ],
+      "id": 1718918182266
+    },
+    {
+      "content": "clean my room",
+      "tags": [
+        "work"
+      ],
+      "id": 1718918192515
+    }
+  ]
+}
