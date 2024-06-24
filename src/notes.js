@@ -7,7 +7,7 @@ export const newNote = async (note, tags) => {
     id: Date.now(),
   };
 
-  await insertDB(newNote);
+  return await insertDB(newNote);
 };
 
 export const getAllNotes = async () => {
@@ -34,5 +34,5 @@ export const removeNote = async (id) => {
 };
 
 export const removeAllNotes = async () => {
-  await saveDB({ notes: [] });
+  return await saveDB({ notes: [] });
 };
